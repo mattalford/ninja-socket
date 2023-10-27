@@ -128,7 +128,6 @@ namespace NinjaTrader.NinjaScript.Indicators.Protechy
 								if (buffer.Array != null)
 								{
 									string receivedData = Encoding.UTF8.GetString(buffer.Array, 0, result.Count);
-									Output.Process(receivedData, PrintTo.OutputTab1);
 									
 									ParseAndInvoke(receivedData); 
 								}  
