@@ -43,7 +43,7 @@ async def websocket_endpoint(websocket: WebSocket, client_id: str):
 async def call_send(client_id: str):  
     try:  
         # Send data
-        textString = "Text to send"
+        textString = "Sent data - Hello Word!"
         await manager.send_command(client_id, textString)
         return {"message": "Command sent"}  
     except Exception as e:  
