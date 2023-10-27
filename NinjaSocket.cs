@@ -27,6 +27,10 @@ using System.Reflection;
 using System.Diagnostics;
 #endregion
 
+#region Updates
+// NT8 NinjaSocket by Matthew Alford @ github.com/mattalford, Version 0.0.1, released 10/27/2023 NT8 8.1.1.7 64-bit
+#endregion
+
 namespace NinjaTrader.NinjaScript.Indicators.Protechy
 {
 	public class NinjaSocket : Indicator, IDisposable
@@ -190,8 +194,7 @@ namespace NinjaTrader.NinjaScript.Indicators.Protechy
 		}
 		
 		protected override void OnBarUpdate()
-		{
-			//Add your custom indicator logic here.  
+		{  
 		}
 
 		[NinjaScriptProperty]
